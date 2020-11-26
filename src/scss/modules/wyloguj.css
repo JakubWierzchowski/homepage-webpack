@@ -1,0 +1,33 @@
+body {
+  background: #a874df;
+  color: rgba(16, 121, 9, 0.8925945378151261);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+}
+
+.form__item {
+  display: block;
+  width: 100%;
+}
+
+.zaloguj {
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-left: 80%;
+}
+
+.legendPunkty {
+    padding: 10px;
+    margin: 0px;
+}
+.label-zespol {
+    display: block;
+}

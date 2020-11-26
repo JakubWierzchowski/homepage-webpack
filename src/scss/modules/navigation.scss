@@ -1,0 +1,18 @@
+.navigation {
+    padding: 16px;
+    display: none;
+    &--open {
+      display: block;
+    }
+    &__link {
+      color: rgb(16, 33, 180);
+      display: block;
+      margin: 0 0 16px;
+      &:visited {
+        color: #aaa700a8;
+      }
+      &:focus {
+        border: 3px solid yellow;
+      }
+    }
+  }

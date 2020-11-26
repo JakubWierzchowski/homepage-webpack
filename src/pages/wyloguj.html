@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="wyloguj.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Dawaj dane, kurua!</h1>
+      <form class="form">
+        <p>
+          <label for="nickName">Your name:</label> </br>
+          <input
+            class="form__item"
+            type="text"
+            id="nickName"
+            name="nickName"
+            placeholder="Please enter your name"
+        
+          />
+        </p>
+        <p>
+          <label
+            >Your pasword:
+            <input
+              class="form__item"
+              id="pasword"
+              name="pasword"
+              placeholder="Please enter your last password"
+              type="password"
+            />
+          </label>
+        </p>
+        <fieldset>
+        <label>Pesel
+            <input class="form__item" id="pesel"  placeholder="Please enter u pesel" name="pesel" type="number" >
+        </label>
+    </fieldset>
+    <p>
+        <label>
+          <input
+            class="form__item"
+            id="avatar"
+            name="avatar"
+            placeholder="Chose u file"
+            type="file"
+          />
+        </label>
+        <label for="band">Wybierz ulubiony zespól</label>
+        <select name="band">
+            <option value="band-1">Mini Majk</option>
+            <option value="band-2">Young Artur</option>
+            <option value="band-2">Kula daje fula</option>
+        </select>
+      </p>
+      <label class="label-zespol" for="yourStory">Dlaczego akurat ten zespół?</label>
+<textarea id="yourStory" name="yourStory">hmm?</textarea>
+      
+<fildset>
+        <legend>Zaznacz prawdziwą odpowiedź</legend>
+        <p class="legendPunkty"> 
+            <label><input name="glupota" type="radio">Jestem debilm</label>
+        </p>
+        <p class="legendPunkty"> 
+            <label><input name="glupota" type="radio">Głosowałem na PIS</label>
+        </p>
+    </fildset>
+    <p><label><input name=zzgreement" type="checkbox"> Zgadzam się na przetwarzanie danych osobowych</label>
+      </form>
+      <div class="zaloguj"><a href="index.html"> Zaloguj</a></div>
+      <p>
+          <input type="submit" value="Send" />
+      </p>
+    </main>
+  </body>
+</html>

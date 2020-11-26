@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+  
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 16px;
+    }
+  
+    .navigation {
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-around;
+      height: 5px;
+      align-items: center;
+    }
+  }
+  
